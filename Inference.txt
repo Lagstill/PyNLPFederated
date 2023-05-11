@@ -1,0 +1,15 @@
+Inference:
+
+num_clients = 5
+num_rounds = 10
+epochs = 10
+data = MNIST
+
+FedAVG : 
+	Test loss: 0.043890677615720776, Test accuracy: 0.9853	
+
+top alpha% models wrt loss + weighted avg wrt accuracy :
+	Test loss: 0.03534807693841867, Test accuracy: 0.9877
+
+Minimum loss :
+	Test loss: 0.03319105501800659, Test accuracy: 0.9888
